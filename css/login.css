@@ -1,0 +1,40 @@
+#login-form {
+    padding: 15px 0;
+    width: 50%;
+}
+
+.wa-name {
+    display: block;
+    margin-bottom: 0.5em;
+    font-size: 0.857142857142857em;
+    line-height: 1.166666666666667em;
+    color: #888;
+}
+
+#login-form .input-login {
+    width: 210px;
+    max-width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 15px;
+    line-height: 20px;
+    border: 1px solid #cfcfcf;
+    margin-bottom: 20px;
+}
+
+#login-form input[type='button'] {
+    border-radius: 3px;
+    background-color: rgb(200, 35, 35);
+    width: 210px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 0 0 0 0;
+    text-transform: uppercase;
+    margin: 10px 0 0 0;
+    outline: none;
+    cursor: pointer;
+}

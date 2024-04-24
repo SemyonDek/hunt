@@ -1,0 +1,235 @@
+.banner {
+    display: table;
+    width: 100%;
+    background: url(../img/main/banner-right.webp) no-repeat right;
+    background-size: auto 510px;
+    margin: -43px 0 0 0;
+}
+
+.banner a, .banner a:hover {
+    display: table-cell;
+    vertical-align: middle;
+    height: 510px;
+    background: url(../img/main/banner-left.webp) no-repeat 70px 50%;
+    background-size: 400px;
+    text-decoration: none;
+}
+
+.banner h1 {
+    font-size: 32px;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(52, 52, 52);
+    margin: 15px 0;
+}
+
+.banner span {
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 0 0 510px;
+    font-size: 70px;
+    color: #000000;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+    display: block;
+}
+
+.banner span strong {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    display: block;
+    color: #878787;
+}
+
+.content {
+    background: #fff;
+    position: relative;
+    /* min-height: 250px; */
+    padding-bottom: 25px;
+}
+
+.hdr {
+    text-align: center;
+    font-size: 32px;
+    font-family: "Times New Roman";
+    color: rgb(52, 52, 52);
+    text-transform: uppercase;
+    margin: 50px 0 25px 0;
+    letter-spacing: 4px;
+}
+
+.hdr a {
+    text-decoration: none;
+}
+
+.category-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.category-item {
+    display: inline-block;
+    vertical-align: top;
+    width: 150px;
+    text-align: center;
+}
+
+.category-item .catimg {
+    height: 150px;
+    width: 150px;
+    vertical-align: middle;
+    display: table-cell;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.category-item a {
+    text-decoration: none;
+}
+
+.category-item .catimg img {
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.slider-list {
+    max-width: 1405px;
+    margin: 0 auto;
+    position: relative;
+    height: auto;
+}
+
+.hidden-block {
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+}
+
+.slider-block {
+    display: flex;
+    flex-wrap: nowrap;
+    width: auto;
+    height: auto;
+    position: relative;
+    top: 0;
+    left: -1px;
+    transition: 1s;
+    z-index: 2;
+}
+
+.prod-slider-item {
+    min-width: 270.8px;
+    max-width: 270.8px;
+    padding: 0;
+    margin: 0 10px 0 0;
+    text-align: left;
+    border-left: 1px solid #ebebeb;
+}
+
+.product-inner {
+    padding: 0 25px;
+}
+
+.image-prod {
+    height: 270px;
+    width: 300px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.image-prod img {
+    vertical-align: bottom;
+    max-width: 200px;
+    max-height: 200px;
+    margin: 30px auto 0 auto;
+}
+
+.product-inner h5 {
+    margin: 0 0 0 0;
+    margin-top: 0.5em;
+    margin-bottom: 0.4em;
+    font-size: 1.1em;
+    overflow: hidden;
+    height: 70px;
+}
+
+.product-inner h5 a {
+    color: rgb(52, 52, 52);
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.product-inner .compare-at-price {
+    text-decoration: line-through;
+    margin: 0 3px;
+    color: #999999;
+    display: inline-block;
+    padding: 0 0 5px 0;
+    font-size: 14px;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.product-inner .price {
+    color: #121212;
+    display: inline-block;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.button-slider-block {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 32px;
+}
+
+.left-button-slider {
+    cursor: pointer;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: -25px;
+    background: url(../img/main/my_icons.png) no-repeat center center !important;
+}
+
+.right-button-slider {
+    cursor: pointer;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    right: -38px !important;
+    background: url(../img/main/my_icons.png) no-repeat center right !important;
+}
+
+.hometext {
+    background: url(../img/main/bg-about.webp) no-repeat bottom center;
+    padding: 0 0 200px 0;
+    background-size: 100%;
+    margin-bottom: -1px;
+}
+
+.container-max {
+    margin: 0 auto;
+    padding: 0 50px;
+    max-width: 1020px;
+}
+
+.hometext p {
+    font-size: 16px;
+    color: rgb(52, 52, 52);
+    line-height: 28px;
+    text-align: justify;
+    margin: 0 0 20px 0;
+}
+
+br {
+    margin: 20px;
+}

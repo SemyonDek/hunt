@@ -1,0 +1,180 @@
+.filters h5 {
+    margin-bottom: 0.5em;
+}
+
+.filters-line {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#reset-form {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+#filters-form {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.filters-item {
+    margin-right: 40px;
+}
+
+.filters-item-block {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 10px;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    display: none;
+}
+
+.filters input[type="number"] {
+    font-size: 0.9em;
+    width: 60px;
+    text-align: right;
+    margin: 0 10px;
+    padding-block: 1px;
+    padding-inline: 2px;
+}
+
+.filters-item-block select {
+    font-size: 0.9em;
+    min-width: 150px;
+    padding-block: 1px;
+    padding-inline: 2px;
+}
+
+.filters-item-btn {
+    display: flex;
+    align-items: center;
+}
+
+.btn-filter {
+    background: url(../img/main/ico-filter.png) no-repeat 90% 50% rgb(104, 206, 99);
+    color: #fff;
+    width: 199px;
+    height: 30px;
+    line-height: 30px;
+    text-indent: 25px;
+    padding-right: 25px;
+    border-radius: 2px;
+    float: right;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+}
+
+#reset-form .btn-filter {
+    background: url(../img/main/ico-filter.png) no-repeat 90% 50% #FF0000;
+}
+
+.sorting {
+    margin-top: 10px;
+}
+
+.sorting h5 {
+    margin-bottom: 0.5em;
+}
+
+/* .main-block {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.filters {
+    width: 18%;
+    margin-right: 2%;
+}
+
+
+*/
+
+.products-block {
+    /* width: 80%; */
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-item {
+    width: 301px;
+    border-left: 1px solid #ebebeb;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0;
+    margin: 0 0 40px 0;
+    position: relative;
+    text-align: left;
+    margin-right: 3px;
+}
+
+.stock-art {
+    font-size: 12px;
+    color: gray;
+}
+
+.price-block {
+    margin-top: 7px;
+    line-height: 1.5em;
+    margin-bottom: 10px;
+}
+
+.prod-form input[type="button"] {
+    padding: 0 0 0 0;
+    line-height: normal;
+    border-radius: 3px;
+    background-color: rgb(200, 35, 35);
+    color: #fff;
+    width: 133px;
+    height: 35px;
+    z-index: 36;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.compare-from-list {
+    text-decoration: none !important;
+    vertical-align: top;
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+    text-indent: -9999px;
+    background-image: url(../img/main/icons.png);
+    background-size: 260px 160px;
+    position: relative;
+    top: 2px;
+    left: 6px;
+    opacity: 0.25;
+    background-position: -208px -16px;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+.compare-from-list:hover {
+    opacity: 0.5;
+}
+
+.compare-from-list.active {
+    background-position: -224px -16px;
+    opacity: 1;
+    cursor: auto;
+    pointer-events: none;
+}
+
+.text-cat-block {
+    padding-bottom: 25px;
+}
+
+.text-cat-block p {
+    margin: 10px 0 20px 0;
+}

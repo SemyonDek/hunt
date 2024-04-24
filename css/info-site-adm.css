@@ -1,0 +1,39 @@
+.content h1 {
+    text-align: center;
+}
+
+.info-site-block {
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info-site-block textarea {
+    margin-top: 40px;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: 300px;
+    min-height: 300px;
+    max-height: 300px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.info-site-block input[type=button] {
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    width: 200px;
+    margin-top: 10px;
+    border: none;
+    background: rgb(52, 52, 52);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+}

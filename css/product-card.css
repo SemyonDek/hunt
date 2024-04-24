@@ -1,0 +1,369 @@
+.prod-info-block {
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+
+.photo-block {
+    margin-right: 390px;
+}
+
+.photo-padding {
+    display: block;
+    margin-block-start: 1em;
+    /* margin-block-end: 1em; */
+    margin-inline-start: 40px;
+    /* margin-inline-end: 40px; */
+    text-align: center;
+}
+
+.main-photo-block {
+    height: 404px;
+}
+
+.main-photo-block img {
+    max-height: 400px;
+    max-width: auto;
+}
+
+.list-photo-block {
+    max-width: 807px;
+    margin: 0 auto;
+    height: auto;
+    position: relative;
+}
+
+.hidden-block {
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    min-height: 124px;
+    max-height: 124px;
+    display: flex;
+}
+
+.swipe-block {
+    position: absolute;
+    max-height: 124px;
+    top: 0;
+    left: 0;
+    display: flex;
+    z-index: 10;
+    transition: 0.5s;
+}
+
+.item-img-block {
+    float: left;
+    min-width: 124px;
+    min-height: 124px;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.hidden-block .item-img-block:last-child {
+    margin-right: 0px;
+}
+
+.item-img-block img {
+    object-fit: cover;
+    border: 1px solid #efefef;
+    max-width: 120px;
+    height: auto;
+    display: block;
+}
+
+.button-swipe-block {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 32px;
+}
+
+.left-button-slider {
+    cursor: pointer;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: -25px;
+    background: url(../img/main/my_icons.png) no-repeat center center !important;
+}
+
+.right-button-slider {
+    cursor: pointer;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    right: -38px !important;
+    background: url(../img/main/my_icons.png) no-repeat center right !important;
+}
+
+.buy-block {
+    width: 370px;
+    padding-left: 20px;
+    float: right;
+}
+
+.hint {
+    color: #aaa;
+    font-size: 0.9em;
+}
+
+.purchase {
+    margin: 20px 0 10px 0;
+    padding: 0;
+}
+
+.add2cart {
+    font-size: 1.1em;
+    line-height: 1.4em;
+}
+
+.add2cart .price {
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(52, 52, 52);
+    margin-right: 20px;
+}
+
+.add2cart .compare-at-price {
+    font-size: 20px;
+    color: rgb(52, 52, 52);
+    text-decoration: line-through;
+    font-weight: 100;
+}
+
+.add2cart input[type="button"], .add2cart .one-click {
+    border-radius: 3px;
+    background-color: rgb(200, 35, 35);
+    width: 256px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 0 0 0 0;
+    text-transform: uppercase;
+    margin: 20px 0 0 0;
+    outline: none;
+    cursor: pointer;
+}
+
+.add2cart .one-click {
+    display: block;
+    background-color: #fff;
+    color: rgb(200, 35, 35);
+    border: 1px solid rgb(200, 35, 35);
+    text-decoration: none;
+}
+
+.compare-add {
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 0 5px 30px;
+    background: url(../img/main/ico-compare.png) no-repeat 8px 50%;
+    font-size: 16px;
+}
+
+.inline-link b {
+    font-weight: normal;
+    position: relative;
+    top: -0.13em;
+}
+
+.inline-link b i {
+    font-style: normal;
+    position: relative;
+    top: 0.13em;
+}
+
+.bottom-block {
+    margin: 0 auto;
+    padding: 0 50px;
+    max-width: 1020px;
+    padding-bottom: 25px;
+    /* background-color: aqua; */
+}
+
+.hdr2 {
+    font-size: 22px;
+    font-weight: normal;
+    font-family: "Times New Roman";
+    color: rgb(52, 52, 52);
+    margin: 30px 0 15px 0;
+}
+
+.bottom-block p {
+    margin: 20px 0 20px 0;
+}
+
+#product-features {
+    width: 100%;
+}
+
+#product-features tr, #product-features td {
+    display: block;
+    float: left;
+    width: 50%;
+    border: none;
+    padding: 0 0 0 0;
+}
+
+#product-features td {
+    margin: 10px 0;
+}
+
+#product-features td.fname {
+    color: #696969;
+    background: url(../img/main/bg-dots.png) repeat-x bottom;
+}
+
+#product-features td.fname span {
+    padding: 0 5px 0 0;
+    display: inline-block;
+    background: #fff;
+}
+
+#product-features td.fvalue {
+    color: #343434;
+}
+
+.item-review {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.name-user {
+    width: 50%;
+    text-align: left;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.date-rewiew {
+    width: 50%;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.rewiew-text {
+    width: 100%;
+}
+
+#modal-one-click {
+    opacity: 0;
+    pointer-events: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000000;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+#modal-one-click:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+#modal-one-click>a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: auto;
+}
+
+.one-click-block {
+    width: 500px;
+    height: 300px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background-color: #fff;
+    border-radius: 10px;
+    border: 9px solid #f3f3f3;
+    box-shadow: 0px 0px 70px #bbb;
+}
+
+.info-one-click-block {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    padding-top: 10px;
+}
+
+.title-one-click {
+    font-size: 32px;
+    font-weight: normal;
+    font-family: "Times New Roman";
+    color: rgb(52, 52, 52);
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+#one-click-form {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.line-one-click-form {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.name-input {
+    width: 40%;
+    font-size: 0.95em;
+    color: #888;
+}
+
+.input-one-click {
+    width: 60%;
+    border: 1px solid black;
+}
+
+.one-click-form-button {
+    margin-top: 20px;
+    border-radius: 3px;
+    background-color: rgb(200, 35, 35);
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 0 50px;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+}
+
+.close-modal {
+    display: block;
+    background-repeat: no-repeat;
+    background-image: url(../img/main/icon16.png);
+    background-position: -208px -16px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+}

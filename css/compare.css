@@ -1,0 +1,140 @@
+.compare-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.left-block {
+    width: 16%;
+}
+
+.right-block {
+    width: 84%;
+}
+
+.header-compare {
+    height: 145.5px;
+}
+
+.left-block .line-item {
+    font-weight: bold;
+    color: #aaa;
+    padding: 0px 10px 7px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.line-item {
+    height: 37px;
+    overflow: hidden;
+}
+
+.line-item.price {
+    height: 42px;
+}
+
+.scrol-block {
+    width: 100%;
+    overflow-x: scroll;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.item-compare {
+    width: 25%;
+    min-width: 25%;
+    max-width: 25%;
+    padding-bottom: 10px;
+}
+
+.right-block .header-compare {
+    padding: 10px 2px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.img-compare {
+    min-width: 96px;
+    min-height: 96px;
+    display: flex;
+    justify-content: center;
+}
+
+.img-compare img {
+    object-fit: cover;
+    border: 1px solid #efefef;
+    max-width: 96px;
+    height: auto;
+}
+
+.block-name-compare {
+    padding-top: 5px;
+    max-width: 70%;
+}
+
+.del-item-compare {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.del-item-compare button {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+.del-icon {
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-image: url(../img/main/icons.png);
+    background-size: 260px 160px;
+    background-position: -96px -16px;
+}
+
+.name-prod-compare {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.right-block .line-item {
+    padding: 10px 2px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    white-space: nowrap;
+}
+
+.price {
+    color: #e15;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.clear-compare {
+    padding-top: 20px;
+}
+
+.clear-compare input {
+    border-radius: 3px;
+    background-color: rgb(200, 35, 35);
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 0 50px;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+}
