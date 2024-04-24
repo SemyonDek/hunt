@@ -42,29 +42,6 @@ require_once('../config/product-new.php');
                         <?php
                         addProdSaleListAdmin($productsSaleList, $productsSale, $photosSale);
                         ?>
-
-                        <!-- <div class="prod-slider-item">
-                            <div class="product-inner">
-                                <div class="image-prod">
-                                    <a href="">
-                                        <img itemprop="image" src="../img/products/35715.200.jpg">
-                                    </a>
-                                </div>
-                                <h5>
-                                    <a href="">
-                                        <span itemprop="name">Оптический прицел Vortex Diamondback Tactical 6-24X50 FFP EBR-2C MRAD
-                                            Reticle.</span>
-                                    </a>
-                                </h5>
-                                <div>
-                                    <span class="compare-at-price nowrap">65 000 <span class="ruble">₽</span></span>
-                                    <span class="price nowrap">37 000 <span class="ruble">₽</span></span>
-                                </div>
-                            </div>
-                        </div> -->
-
-
-
                     </div>
 
                 </div>
@@ -88,25 +65,6 @@ require_once('../config/product-new.php');
                         <?php
                         addProdNewListAdmin($productsNewList, $productsNew, $photosNew);
                         ?>
-                        <!-- <div class="prod-slider-item">
-                            <div class="product-inner">
-                                <div class="image-prod">
-                                    <a href="">
-                                        <img itemprop="image" src="../img/products/35715.200.jpg">
-                                    </a>
-                                </div>
-                                <h5>
-                                    <a href="">
-                                        <span itemprop="name">Оптический прицел Vortex Diamondback Tactical 6-24X50 FFP EBR-2C MRAD
-                                            Reticle.</span>
-                                    </a>
-                                </h5>
-                                <div>
-                                    <span class="price nowrap">37 000 <span class="ruble">₽</span></span>
-                                </div>
-                            </div>
-                        </div> -->
-
                     </div>
 
                 </div>

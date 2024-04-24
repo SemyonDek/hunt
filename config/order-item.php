@@ -1,5 +1,4 @@
 <?php
-
 function addOrderItemList($orderItems)
 {
     foreach ($orderItems as $item) {

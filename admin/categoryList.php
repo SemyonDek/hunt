@@ -27,25 +27,6 @@ require_once('../config/category.php');
                     <?php
                     addList($category, $parrent = 0)
                     ?>
-                    <!-- <ul>
-                        <li><a href="category-item.php">Оружие и патроны</a></li>
-                        <li><a href="">Оружие и патроны</a></li>
-                        <li><a href="">Оружие и патроны</a>
-                            <ul>
-                                <li><a href="">Оружие и патроны</a></li>
-                                <li><a href="">Оружие и патроны</a>
-                                    <ul>
-                                        <li><a href="">Оружие и патроны</a></li>
-                                        <li><a href="">Оружие и патроны</a></li>
-                                        <li><a href="">Оружие и патроны</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="">Оружие и патроны</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="">Оружие и патроны</a></li>
-                        <li><a href="">Оружие и патроны</a></li>
-                    </ul> -->
                 </div>
             </div>
         </div>
